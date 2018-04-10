@@ -1,0 +1,6 @@
+Regulation Summary
+Customer Account:,Tidal Energy Marketing Inc.,Report Creation Timestamp (EPT):,03/07/2018 11:33:00 AM
+Start Date:,02/01/2018,End Date:,02/28/2018
+4000.01,4000.02,4000.05,4000.06,1340.18,1340.21,1340.19,1340.20,1340.11,1340.12,1340.13,1340.14,1340.22,1340.23,3001.44,3001.45,1340.03,1340.04,2340.13,2340.14,1340.15,1340.16,1340.17,1340.02,2340.32,2340.33,2340.16,4000.07
+Customer ID,Customer Code,EPT Hour Ending,GMT Hour Ending,Total Assigned Reg (MWh),Total Mileage Reg Adder (MWh),RT Load (MWh),Total PJM RT Load (MWh),Reg Obligation (MWh),Bilateral Reg Sales (MWh),Bilateral Reg Purchases (MWh),Adjusted Reg Obligation (MWh),Total PJM Adjusted Reg Obligation (MWh),Mileage Ratio Adder (MWh),RMCCP ($/MWh),RMPCP ($/MWh),RMCCP Charge ($),RMPCP Charge ($),PJM-Assigned Reg (MWh),Self-Scheduled Reg (MWh),Reg Purchases (MWh),Total PJM Reg Purchase (MWh),Total PJM Reg Lost Opportunity Credit ($),Reg Lost Opportunity Cost Charge ($),RMCCP Credit ($),RMPCP Credit ($),Reg Lost Opportunity Cost Credit ($),Version
+End of Report

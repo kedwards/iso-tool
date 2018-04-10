@@ -1,0 +1,173 @@
+ID,FREQUENCY,ENABLED,REPORT NAME,API NAME,FILE NAME,URI
+1,,FALSE,Non-Firm PTP Resale Credits,non-firmptpresalecredits,NFPTPResCr,https://msrs.pjm.com/msrs/browserless.do?
+2,,FALSE,Non-Firm PTP Resale Charges,non-firmptpresalecharges,NFPTPResCh,https://msrs.pjm.com/msrs/browserless.do?
+3,,FALSE,Firm PTP Resale Credits,firmptpresalecredits,FPTPResCr,https://msrs.pjm.com/msrs/browserless.do?
+4,,FALSE,Firm PTP Resale Charges,firmptpresalecharges,FPTPResCh,https://msrs.pjm.com/msrs/browserless.do?
+5,,FALSE,Cross-monthly Congestion Credit Summary,cross-monthlycongestioncreditsummary,XMonthCong,https://msrs.pjm.com/msrs/browserless.do?
+6,,FALSE,Generator LMP Charges,generatorlmpcharges,GenLmpCh,https://msrs.pjm.com/msrs/browserless.do?
+7,,FALSE,Firm PTP Merchant Resale Credits,firmptpmerchantresalecredits,FMchResCr,https://msrs.pjm.com/msrs/browserless.do?
+8,,FALSE,Firm PTP Merchant Resale Charges,firmptpmerchantresalecharges,FMchResCh,https://msrs.pjm.com/msrs/browserless.do?
+9,,FALSE,Non-Firm PTP Merchant Resale Credits,non-firmptpmerchantresalecredits,NFMchResCr,https://msrs.pjm.com/msrs/browserless.do?
+10,,FALSE,Non-Firm PTP Merchant Resale Charges,non-firmptpmerchantresalecharges,NFMchResCh,https://msrs.pjm.com/msrs/browserless.do?
+11,,FALSE,Generation Deactivation Charge Summary,generationdeactivationchargesummary,GenDeactCh,https://msrs.pjm.com/msrs/browserless.do?
+12,,FALSE,Generation Deactivation Refund Charge Summary,generationdeactivationrefundchargesummary,GnDctRefCh,https://msrs.pjm.com/msrs/browserless.do?
+13,,FALSE,Non-Synchronized Reserve Credits,non-synchronizedreservecredits,NSRCr,https://msrs.pjm.com/msrs/browserless.do?
+14,,FALSE,Non-Synchronized Reserve Summary,non-synchronizedreservesummary,NSRChCr,https://msrs.pjm.com/msrs/browserless.do?
+15,,FALSE,NSR Load Reconciliation Charge Summary,nsrloadreconciliationchargesummary,NSRRecCh,https://msrs.pjm.com/msrs/browserless.do?
+16,,FALSE,Emergency Load Response Credit,emergencyloadresponsecredit,EmerLRCr,https://msrs.pjm.com/msrs/browserless.do?
+17,,FALSE,Transmission Enhancement Charge Summary,transmissionenhancementchargesummary,TranEnhCh,https://msrs.pjm.com/msrs/browserless.do?
+18,,FALSE,Transmission Enhancement Credit Summary,transmissionenhancementcreditsummary,TranEnhCr,https://msrs.pjm.com/msrs/browserless.do?
+19,,FALSE,Emergency Load Response Allocation Summary,emergencyloadresponseallocationsummary,EmLRCh,https://msrs.pjm.com/msrs/browserless.do?
+20,,FALSE,Emergency Load Response Make-Whole Credits,emergencyloadresponsemake-wholecredits,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+21,,FALSE,Operating Reserve for Load Response Resource Deviations,operatingreserveforloadresponseresourcedeviations,ORLRDev,https://msrs.pjm.com/msrs/browserless.do?
+22,,FALSE,RPM Auction Credits,rpmauctioncredits,RPMAucCr,https://msrs.pjm.com/msrs/browserless.do?
+23,,FALSE,Firm PTP Weekly Adjustment Charge Details,firmptpweeklyadjustmentchargedetails,FPTPWkAdj,https://msrs.pjm.com/msrs/browserless.do?
+24,,FALSE,Reconciled Residual Metered Load Aggregate Definitions,reconciledresidualmeteredloadaggregatedefinitions,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+25,,FALSE,CT Lost Opportunity Cost Forfeiture,ctlostopportunitycostforfeiture,CTLOCFor,https://msrs.pjm.com/msrs/browserless.do?
+26,,FALSE,Fuel Cost Policy Penalty Charge Details,fuelcostpolicypenaltychargedetails,FCPPCh,https://msrs.pjm.com/msrs/browserless.do?
+27,,FALSE,Fuel Cost Policy Penalty Credit Allocation Summary,fuelcostpolicypenaltycreditallocationsummary,FCPPCr,https://msrs.pjm.com/msrs/browserless.do?
+28,,FALSE,Locational Reliability Charge Summary,locationalreliabilitychargesummary,LocRelCh,https://msrs.pjm.com/msrs/browserless.do?
+29,,FALSE,RPM Auction Charges and Credits (Pre 06.01.2014),rpmauctionchargesandcredits(pre06.01.2014),FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+30,,FALSE,RPM Auction Make-Whole Charge Summary,rpmauctionmake-wholechargesummary,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+31,,FALSE,ILR Credit Summary,ilrcreditsummary,ILRCr,https://msrs.pjm.com/msrs/browserless.do?
+32,,FALSE,CTR Credit Summary,ctrcreditsummary,CTRCr,https://msrs.pjm.com/msrs/browserless.do?
+33,,FALSE,Incremental CTR Credits,incrementalctrcredits,ICTRCr,https://msrs.pjm.com/msrs/browserless.do?
+34,,FALSE,Auction Specific MW Transaction Charges and Credits,auctionspecificmwtransactionchargesandcredits,ASMTChCr,https://msrs.pjm.com/msrs/browserless.do?
+35,,FALSE,Non-Compliance Charge Summary,non-compliancechargesummary,NonCompCh,https://msrs.pjm.com/msrs/browserless.do?
+36,,FALSE,Deficiency Credit Summary,deficiencycreditsummary,DefCr,https://msrs.pjm.com/msrs/browserless.do?
+37,,FALSE,DR & ILR Compliance Penalty Ch and Cr,dr&ilrcompliancepenaltychandcr,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+38,,FALSE,DR & ILR Compliance Penalty Residual Cr Summary,dr&ilrcompliancepenaltyresidualcrsummary,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+39,,FALSE,DA Daily Energy Transactions,dadailyenergytransactions,DATrans,https://msrs.pjm.com/msrs/browserless.do?
+40,,FALSE,DA Transmission Service Usage,datransmissionserviceusage,DATSUse,https://msrs.pjm.com/msrs/browserless.do?
+41,,FALSE,Emergency Energy Charge and Credit Allocation Summary,emergencyenergychargeandcreditallocationsummary,EmergChCr,https://msrs.pjm.com/msrs/browserless.do?
+42,,FALSE,Emergency Energy Transactions,emergencyenergytransactions,EETrans,https://msrs.pjm.com/msrs/browserless.do?
+43,,FALSE,Energy Imbalance Credit Allocation Summary,energyimbalancecreditallocationsummary,EnImbaCrA,https://msrs.pjm.com/msrs/browserless.do?
+44,,FALSE,Energy Imbalance Summary,energyimbalancesummary,EnImba,https://msrs.pjm.com/msrs/browserless.do?
+45,,FALSE,Expansion Cost Recovery Charge Summary,expansioncostrecoverychargesummary,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+46,,FALSE,Expansion Cost Recovery Credit Summary,expansioncostrecoverycreditsummary,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+47,,FALSE,Explicit Congestion Charges,explicitcongestioncharges,ExplCongCh,https://msrs.pjm.com/msrs/browserless.do?
+48,,FALSE,Explicit Loss Charges,explicitlosscharges,ExplLossCh,https://msrs.pjm.com/msrs/browserless.do?
+49,,FALSE,Firm PTP Charges,firmptpcharges,FirmPTPCh,https://msrs.pjm.com/msrs/browserless.do?
+50,weekly,TRUE,FTR Auction Charges and Credits,ftrauctionchargesandcredits,FTRAuction,https://msrs.pjm.com/msrs/browserless.do?
+51,,FALSE,FTR Target Credits,ftrtargetcredits,FTRTarget,https://msrs.pjm.com/msrs/browserless.do?
+52,,FALSE,Implicit Congestion and Loss Charge Details,implicitcongestionandlosschargedetails,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+53,,FALSE,Inadvertent Interchange Charge Summary,inadvertentinterchangechargesummary,InadvCh,https://msrs.pjm.com/msrs/browserless.do?
+54,,FALSE,Load InSchedule With and Without Losses,loadinschedulewithandwithoutlosses,LdInSched,https://msrs.pjm.com/msrs/browserless.do?
+55,monthly,TRUE,NITS Charge Summary,nitschargesummary,NITSCh,https://msrs.pjm.com/msrs/browserless.do?
+56,monthly,TRUE,NITS Credit Summary,nitscreditsummary,NITSCr,https://msrs.pjm.com/msrs/browserless.do?
+57,,FALSE,NITS Offset Charge Summary,nitsoffsetchargesummary,NITSOffCh,https://msrs.pjm.com/msrs/browserless.do?
+58,monthly,TRUE,Non-Firm PTP Charges,non-firmptpcharges,NFPTPCh,https://msrs.pjm.com/msrs/browserless.do?
+59,,FALSE,Non-Zone NITS Credit Summary,non-zonenitscreditsummary,NZNITSCr,https://msrs.pjm.com/msrs/browserless.do?
+60,,FALSE,Prelim RT Transactions,prelimrttransactions,PreRTTrans,https://msrs.pjm.com/msrs/browserless.do?
+61,,FALSE,RT Daily Energy Transactions,rtdailyenergytransactions,RTTrans,https://msrs.pjm.com/msrs/browserless.do?
+62,,FALSE,RT Transmission Service Usage,rttransmissionserviceusage,RTTSUse,https://msrs.pjm.com/msrs/browserless.do?
+63,,FALSE,Report Version Availability,reportversionavailability,RptVersion,https://msrs.pjm.com/msrs/browserless.do?
+64,,FALSE,RTO Startup Cost Recovery Charge Summary,rtostartupcostrecoverychargesummary,RTOSCRCh,https://msrs.pjm.com/msrs/browserless.do?
+65,monthly,TRUE,Schedule 9 and 10 Charge Details,schedule9and10chargedetails,9&10ChDet,https://msrs.pjm.com/msrs/browserless.do?
+66,weekly,TRUE,Spot Market Energy Charge Summary,spotmarketenergychargesummary,SpotMktCh,https://msrs.pjm.com/msrs/browserless.do?
+67,weekly,TRUE,Transmission Congestion Charge Summary,transmissioncongestionchargesummary,CongCh,https://msrs.pjm.com/msrs/browserless.do?
+68,weekly,TRUE,Transmission Loss Charge Summary,transmissionlosschargesummary,LossCh,https://msrs.pjm.com/msrs/browserless.do?
+69,,FALSE,Transmission Loss Credit Summary,transmissionlosscreditsummary,LossCr,https://msrs.pjm.com/msrs/browserless.do?
+70,weekly,TRUE,Sched 1A Charge Summary,sched1achargesummary,1ACh,https://msrs.pjm.com/msrs/browserless.do?
+71,weekly,TRUE,Sched 1A Credit Summary,sched1acreditsummary,1ACr,https://msrs.pjm.com/msrs/browserless.do?
+72,,FALSE,Zonal Aggregate Definitions,zonalaggregatedefinitions,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+73,,FALSE,Published Report Versions,publishedreportversions,PubRptVer,https://msrs.pjm.com/msrs/browserless.do?
+74,,FALSE,ARR Target Credits,arrtargetcredits,ARRTarget,https://msrs.pjm.com/msrs/browserless.do?
+75,,FALSE,BLI Adjustment Summary,bliadjustmentsummary,BLIAdj,https://msrs.pjm.com/msrs/browserless.do?
+76,,FALSE,BLI Transfer Summary,blitransfersummary,BLITransf,https://msrs.pjm.com/msrs/browserless.do?
+77,,FALSE,Monthly Billing Statement - Online and PDF,monthlybillingstatement-onlineandpdf,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+78,,FALSE,Monthly Billing Statement - CSV and XML,monthlybillingstatement-csvandxml,BILLCSVXML,https://msrs.pjm.com/msrs/browserless.do?
+79,monthly,TRUE,Black Start Charge Summary,blackstartchargesummary,BlkStCh,https://msrs.pjm.com/msrs/browserless.do?
+80,,FALSE,Congestion and Loss Load Recon Charges,congestionandlossloadreconcharges,CLRecCh,https://msrs.pjm.com/msrs/browserless.do?
+81,monthly,TRUE,Economic Load Response Zonal Charge Allocations (Pre FERC 745 (04.01.2012)),economicloadresponsezonalchargeallocations(preferc745(04.01.2012)),EcLRZnChA,https://msrs.pjm.com/msrs/browserless.do?
+82,,FALSE,Energy & Inadvertent Load Recon Charge Summary,energy&inadvertentloadreconchargesummary,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+83,,FALSE,FERC EQR,ferceqr,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+84,monthly,TRUE,Firm PTP Credit Summary,firmptpcreditsummary,FirmPTPCr,https://msrs.pjm.com/msrs/browserless.do?
+85,,FALSE,Generator Credit Summary,generatorcreditsummary,GenCr,https://msrs.pjm.com/msrs/browserless.do?
+86,,FALSE,Generator Portfolio Credit Summary,generatorportfoliocreditsummary,GenPortCr,https://msrs.pjm.com/msrs/browserless.do?
+87,weekly,TRUE,Hourly Transmission Congestion Credits,hourlytransmissioncongestioncredits,FTRCr,https://msrs.pjm.com/msrs/browserless.do?
+88,,FALSE,Load Response Regulation Credits,loadresponseregulationcredits,LRRegCr,https://msrs.pjm.com/msrs/browserless.do?
+89,,FALSE,Load Response Summary (Pre FERC 745 (04.01.2012)),loadresponsesummary(preferc745(04.01.2012)),LRChCr,https://msrs.pjm.com/msrs/browserless.do?
+90,,FALSE,Load Response Tier 1 Credits,loadresponsetier1credits,LRTier1Cr,https://msrs.pjm.com/msrs/browserless.do?
+91,,FALSE,Load Response Tier 2 Credits,loadresponsetier2credits,LRTier2Cr,https://msrs.pjm.com/msrs/browserless.do?
+92,,FALSE,Meter Correction Allocation Charge Summary,metercorrectionallocationchargesummary,MCACh,https://msrs.pjm.com/msrs/browserless.do?
+93,,FALSE,Meter Correction Charge Summary,metercorrectionchargesummary,MCCh,https://msrs.pjm.com/msrs/browserless.do?
+94,,FALSE,Month-to-Date Bill - Online,month-to-datebill-online,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+95,monthly,TRUE,Non-Firm PTP Credit Summary,non-firmptpcreditsummary,NFPTPCr,https://msrs.pjm.com/msrs/browserless.do?
+96,monthly,TRUE,Operating Reserve Charge Summary,operatingreservechargesummary,ORCh,https://msrs.pjm.com/msrs/browserless.do?
+97,,FALSE,Operating Reserve Deviation Summary,operatingreservedeviationsummary,ORDev,https://msrs.pjm.com/msrs/browserless.do?
+98,monthly,TRUE,Operating Reserve for Load Response Charge Allocation (Pre FERC 745 (04.01.2012)),operatingreserveforloadresponsechargeallocation(preferc745(04.01.2012)),ORLRCh,https://msrs.pjm.com/msrs/browserless.do?
+99,,FALSE,Operating Reserve Generator Credit Details,operatingreservegeneratorcreditdetails,ORGenCrDet,https://msrs.pjm.com/msrs/browserless.do?
+100,,FALSE,Operating Reserve Generator Deviations,operatingreservegeneratordeviations,ORGenDev,https://msrs.pjm.com/msrs/browserless.do?
+101,,FALSE,Operating Reserve Lost Opportunity Cost Credits,operatingreservelostopportunitycostcredits,ORLOCCr,https://msrs.pjm.com/msrs/browserless.do?
+102,monthly,TRUE,Operating Reserve Transaction Credits,operatingreservetransactioncredits,ORTransCr,https://msrs.pjm.com/msrs/browserless.do?
+103,,FALSE,Monthly Congestion Credit Summary,monthlycongestioncreditsummary,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+104,,FALSE,Ramapo PAR Charge Summary,ramapoparchargesummary,RamapoCh,https://msrs.pjm.com/msrs/browserless.do?
+105,,FALSE,Reactive Services Charge Summary,reactiveserviceschargesummary,RSvcCh,https://msrs.pjm.com/msrs/browserless.do?
+106,,FALSE,Reactive Services Credits,reactiveservicescredits,RSvcCr,https://msrs.pjm.com/msrs/browserless.do?
+107,,FALSE,Reactive Svcs Load Recon Charge Summary,reactivesvcsloadreconchargesummary,RSvcRecCh,https://msrs.pjm.com/msrs/browserless.do?
+108,monthly,TRUE,Reactive Charge Summary,reactivechargesummary,RSuppCh,https://msrs.pjm.com/msrs/browserless.do?
+109,monthly,TRUE,Regulation Credits,regulationcredits,RegCr,https://msrs.pjm.com/msrs/browserless.do?
+110,,FALSE,Reg Load Recon Charge Summary,regloadreconchargesummary,RegRecCh,https://msrs.pjm.com/msrs/browserless.do?
+111,monthly,TRUE,Regulation Summary,regulationsummary,RegChCr,https://msrs.pjm.com/msrs/browserless.do?
+112,,FALSE,Sched 1A Load Recon Charge Summary,sched1aloadreconchargesummary,1ARecCh,https://msrs.pjm.com/msrs/browserless.do?
+113,,FALSE,Sched 9 & 10 Load Recon Charge Summary,sched9&10loadreconchargesummary,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+114,monthly,TRUE,Synchronized Reserve Tier 1 Charge Summary,synchronizedreservetier1chargesummary,SRT1Ch,https://msrs.pjm.com/msrs/browserless.do?
+115,monthly,TRUE,Synchronized Reserve Credit Summary,synchronizedreservecreditsummary,SRCr,https://msrs.pjm.com/msrs/browserless.do?
+116,,FALSE,Synchronized Reserve Load Recon Charge Summary,synchronizedreserveloadreconchargesummary,SRRecCh,https://msrs.pjm.com/msrs/browserless.do?
+117,,FALSE,Synchronized Reserve Obligation Details,synchronizedreserveobligationdetails,SROblDet,https://msrs.pjm.com/msrs/browserless.do?
+118,,FALSE,Synchronized Reserve Tier 1 Credits,synchronizedreservetier1credits,SRT1Cr,https://msrs.pjm.com/msrs/browserless.do?
+119,,FALSE,Synchronized Reserve Tier 2 Credits,synchronizedreservetier2credits,SRT2Cr,https://msrs.pjm.com/msrs/browserless.do?
+120,,FALSE,Synchronous Condensing Charge Summary,synchronouscondensingchargesummary,SCCh,https://msrs.pjm.com/msrs/browserless.do?
+121,,FALSE,Synchronous Condensing Credits,synchronouscondensingcredits,SCCr,https://msrs.pjm.com/msrs/browserless.do?
+122,,FALSE,Synchronous Condensing Load Recon Charge Summary,synchronouscondensingloadreconchargesummary,SCRecCh,https://msrs.pjm.com/msrs/browserless.do?
+123,monthly,TRUE,Transmission Loss Load Recon Credit Summary,transmissionlossloadreconcreditsummary,LossRecCr,https://msrs.pjm.com/msrs/browserless.do?
+124,,FALSE,Monthly Billing Statement Recipients,monthlybillingstatementrecipients,BillRecip,https://msrs.pjm.com/msrs/browserless.do?
+125,,FALSE,Congestion Uplift Charge Summary,congestionupliftchargesummary,CongUplift,https://msrs.pjm.com/msrs/browserless.do?
+126,monthly,TRUE,Synchronized Reserve Tier 2 Charge Summary,synchronizedreservetier2chargesummary,SRT2Ch,https://msrs.pjm.com/msrs/browserless.do?
+127,,FALSE,Net Bill Report,netbillreport,Net Bill,https://msrs.pjm.com/msrs/browserless.do?
+128,,FALSE,Hourly Load Data,hourlyloaddata,HrlyLoad,https://msrs.pjm.com/msrs/browserless.do?
+129,,FALSE,Regional Bal Operating Reserve Charge Summary,regionalbaloperatingreservechargesummary,RegBORCh,https://msrs.pjm.com/msrs/browserless.do?
+130,,FALSE,Bal Operating Reserve Load Recon Charge Summary,baloperatingreserveloadreconchargesummary,ORRecCh,https://msrs.pjm.com/msrs/browserless.do?
+131,,FALSE,Advanced Second Control Center Charge Details,advancedsecondcontrolcenterchargedetails,AC2Charge,https://msrs.pjm.com/msrs/browserless.do?
+132,,FALSE,Weekly Billing Statement - Online and PDF,weeklybillingstatement-onlineandpdf,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+133,,FALSE,Weekly Billing Statement - CSV and XML,weeklybillingstatement-csvandxml,WEKBILLCSV,https://msrs.pjm.com/msrs/browserless.do?
+134,,FALSE,Weekly Month-to-Date Bill - Online,weeklymonth-to-datebill-online,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+135,weekly,TRUE,Weekly Month-to-Date Bill - CSV and XML,weeklymonth-to-datebill-csvandxml,WEKMTDBill,https://msrs.pjm.com/msrs/browserless.do?
+136,,FALSE,Weekly Billed Report Versions,weeklybilledreportversions,WeekRpts,https://msrs.pjm.com/msrs/browserless.do?
+137,,FALSE,Weekly Billing Statement Recipients,weeklybillingstatementrecipients,WekBillRec,https://msrs.pjm.com/msrs/browserless.do?
+138,,FALSE,Market-to-Market Adjustment to Transmission Congestion Credit Details,market-to-marketadjustmenttotransmissioncongestioncreditdetails,M2MAdj,https://msrs.pjm.com/msrs/browserless.do?
+139,,FALSE,Load Management Test Failure Charge Summary (Pre 08.01.2015),loadmanagementtestfailurechargesummary(pre08.01.2015),FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+140,,FALSE,Operating Reserve for Load Response Credit (Pre FERC 745 (04.01.2012)),operatingreserveforloadresponsecredit(preferc745(04.01.2012)),ORLRCr,https://msrs.pjm.com/msrs/browserless.do?
+141,,FALSE,Operating Reserve for Load Response Deviation Charge Summary (Pre FERC 745 (04.01.2012)),operatingreserveforloadresponsedeviationchargesummary(preferc745(04.01.2012)),ORLRDevCh,https://msrs.pjm.com/msrs/browserless.do?
+142,,FALSE,JOA Make-Whole Credit Details,joamake-wholecreditdetails,JOACrDet,https://msrs.pjm.com/msrs/browserless.do?
+143,,FALSE,JOA Make-Whole Credits,joamake-wholecredits,JOACr,https://msrs.pjm.com/msrs/browserless.do?
+144,,FALSE,Load Response Summary,loadresponsesummary,LRChCr,https://msrs.pjm.com/msrs/browserless.do?
+145,,FALSE,Economic Load Response Zonal Charge Allocations,economicloadresponsezonalchargeallocations,EcLRZnChA,https://msrs.pjm.com/msrs/browserless.do?
+146,,FALSE,Day-Ahead Operating Reserve for Negative Congestion Summary,day-aheadoperatingreservefornegativecongestionsummary,DaORCong,https://msrs.pjm.com/msrs/browserless.do?
+147,,FALSE,Operating Reserve Lost Opportunity Cost for Pump Hydro Credits,operatingreservelostopportunitycostforpumphydrocredits,ORLOCPHCr,https://msrs.pjm.com/msrs/browserless.do?
+148,,FALSE,Synchronized Reserve Tier 2 Retroactive Penalty Charges,synchronizedreservetier2retroactivepenaltycharges,SRT2RetCh,https://msrs.pjm.com/msrs/browserless.do?
+149,,FALSE,Deferred Tax Adjustment Charge Summary,deferredtaxadjustmentchargesummary,DfTxAdjCh,https://msrs.pjm.com/msrs/browserless.do?
+150,,FALSE,RPM Auction Charges,rpmauctioncharges,RPMAucCh,https://msrs.pjm.com/msrs/browserless.do?
+151,,FALSE,Residual Metered Load Aggregate Reconciliation Charges,residualmeteredloadaggregatereconciliationcharges,RMLRecCh,https://msrs.pjm.com/msrs/browserless.do?
+152,,FALSE,Load Management Compliance Penalty Charges,loadmanagementcompliancepenaltycharges,LMCPCh,https://msrs.pjm.com/msrs/browserless.do?
+153,,FALSE,Load Management Compliance Penalty Credits,loadmanagementcompliancepenaltycredits,LMCPCr,https://msrs.pjm.com/msrs/browserless.do?
+154,,FALSE,Load Management Compliance Penalty Residual Credits,loadmanagementcompliancepenaltyresidualcredits,LMCPResCr,https://msrs.pjm.com/msrs/browserless.do?
+155,,FALSE,LSE InSchedule and NSPL Activity Summary,lseinscheduleandnsplactivitysummary,LSEActSum,https://msrs.pjm.com/msrs/browserless.do?
+156,weekly,TRUE,Balancing Transmission Congestion Credit Summary,balancingtransmissioncongestioncreditsummary,BalCongCr,https://msrs.pjm.com/msrs/browserless.do?
+157,,FALSE,Balancing Transmission Congestion Load Reconciliation Credit Summary,balancingtransmissioncongestionloadreconciliationcreditsummary,BalCongRec,https://msrs.pjm.com/msrs/browserless.do?
+158,monthly,TRUE,Month-to-Date Bill - CSV and XML,month-to-datebill-csvandxml,MTDBill,https://msrs.pjm.com/msrs/browserless.do?
+159,,FALSE,Day-Ahead Scheduling Reserve Summary,day-aheadschedulingreservesummary,DASRChCr,https://msrs.pjm.com/msrs/browserless.do?
+160,monthly,TRUE,Day-Ahead Scheduling Reserve Credits,day-aheadschedulingreservecredits,DASRCr,https://msrs.pjm.com/msrs/browserless.do?
+161,,FALSE,DASR Load Recon Charge Summary,dasrloadreconchargesummary,DASRRecCh,https://msrs.pjm.com/msrs/browserless.do?
+162,,FALSE,Network ARR Target Credit Summary,networkarrtargetcreditsummary,NetARRSum,https://msrs.pjm.com/msrs/browserless.do?
+163,,FALSE,Low Voltage NITS Charge Summary,lowvoltagenitschargesummary,FILENAME ERROR,https://msrs.pjm.com/msrs/browserless.do?
+164,,FALSE,FRR LSE Reliability Charge Summary,frrlsereliabilitychargesummary,FRRRelCh,https://msrs.pjm.com/msrs/browserless.do?
+165,,FALSE,FRR LSE Schedules 9-5 and 9-6 Charges,frrlseschedules9-5and9-6charges,FRRSch9Ch,https://msrs.pjm.com/msrs/browserless.do?
+166,,FALSE,Schedule 10 Michigan - Ontario PAR Charges,schedule10michigan-ontarioparcharges,MichOntCh,https://msrs.pjm.com/msrs/browserless.do?
+167,,FALSE,Load Management Test Failure Charge Summary,loadmanagementtestfailurechargesummary,LMTstFlCh,https://msrs.pjm.com/msrs/browserless.do?
+168,,FALSE,Operating Reserve for Load Response Charge Allocation,operatingreserveforloadresponsechargeallocation,ORLRCh,https://msrs.pjm.com/msrs/browserless.do?
+169,,FALSE,Operating Reserve for Load Response Credit,operatingreserveforloadresponsecredit,ORLRCr,https://msrs.pjm.com/msrs/browserless.do?
+170,,FALSE,Operating Reserve for Load Response Deviation Charge Summary,operatingreserveforloadresponsedeviationchargesummary,ORLRDevCh,https://msrs.pjm.com/msrs/browserless.do?
+171,,FALSE,ICTR Transmission Enhancement Credits,ictrtransmissionenhancementcredits,ICTRTrEnCr,https://msrs.pjm.com/msrs/browserless.do?
+172,,FALSE,Load Management Test Failure Credit Summary,loadmanagementtestfailurecreditsummary,LMTstFlCr,https://msrs.pjm.com/msrs/browserless.do?
