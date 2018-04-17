@@ -1,0 +1,99 @@
+POWER SUPPLIERS
+100,200,201,101,102,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,245,246,5200,5210,5220,5230,5240,5250,5260,5270,5280,250,251,252,253,254,255,256,257,258,259,260,261,262,263,264,1007,265,266,267,268
+Org name,Gen name,Gen Ptid,Start day,Start hour,DAM Hrly LBMP MWh,DAM Hrly LBMP $,DAM Forward energy $,DAM BPCG $,DAM Startup $,Hrly R/T MWh,Hrly R/T Bus LBMP $,Hrly R/T Energy $,R/T BPCG $,R/T Startup $,Monthly Voltage Service $,% In Service,Voltage Support $,Hrly VSS LOC $,Availability Index,Hrly DAM Reg Avail,Hrly DAM Reg MCP $,Hrly Suppl Reg Avail,Hrly Supl MC $,Reg Replacement cost $,Regulation Charge $,Hrly 30 Min MCP $,Hrly 30 Min Res MWHr,Hrly Suppl 30 Min MCP $,Hrly Suppl 30 Min Res MWHr,Hrly 30 Min Res Avail $,Hrly Synch Res MCP $,Hrly Synch Res MWHr,Hrly Suppl Synch Res MCP $,Hrly Suppl Synch Res MWHr,Hrly Synch Res Avail $,Hrly 10 Min Non Synch Res MCP $,Hrly 10 Min Non Synch Res MWHr,Hrly Suppl 10 Min Non Synch MCP $,Hrly Suppl 10 Min Non Synch MWHr,Hrly 10 Min Non Synch Res Avail $,Hrly LRR DAM Contract Bal Pmnt $,Hrly DAM Contract Bal Pmnt $,Hrly Synch Res LOC $,Hrly 30 Min Res Reduc MWHr,Hrly Synch Res Reduc MWHr,Hrly 10 Min Non Synch Res Reduc MWHr,Reserve Penalty $,Avg Supply Ratio,Hrly 10Mn Non Synch Res LOC $,Out of Merit Flag,Local Reliability Flag,Out of Merit Flag Memo,Eligible Mingen Flag,Ramp rate constraint flag,Mitigated Unit Flag,Regulating Unit Flag,Dispatch Seconds,Number of Reserve Pickup Intervals,Hrly Bal Mkt Reg Avail MWHr,Hrly Bal Mkt Reg Avail $,Hrly Reg Rev Adj $,Hrly Sup Event Credit $,Injection MWHr,S SC&D MST Inject Rate,S SC&D MST Inject Charge $,S SC&D OAT Inject Rate,S SC&D OAT Inject Charge $,Misc Exp MST Inject Rate,Misc Exp MST Inject Charge $,Misc Exp OAT Inject Rate,Misc Exp OAT Inject Charge $,Hr RT Mitigated Startup Cost,Hr RT Mitigated MinGen Cost,Local BlackStart/Rest Payment $,Hrly Reg Movement MWHr,Hrly RT Reg Movement $,Hrly Reg Performance Charge $,FERC Fees OAT Inject Charge $
+LSE LBMP ENERGY
+100,400,401,101,102,402,403,404,405,406,407,408,409,410,411
+Org name,LSE name,Bus name,Start day,Start hour,DAM Hrly LBMP MWh,DAM LBMP $,Hrly Fwd Energy $,Hrly Fwd Loss $,Hrly Fwd Cong $,LSE Hrly R/T MWh,R/T LBMP $,Hrly R/T Energy $,Hrly R/T Loss $,Hrly R/T Cong $
+TRANSACTIONS
+100,400,500,101,102,501,502,503,504,505,506,507,508,509,510,521,522,523,524,525,526,527,530,1004
+Org name,LSE name,Trans Id,Start day,Start hour,DAM Scheduled Transactions,Hrly Transaction DAM Loss,Hrly Transaction DAM Congestion $,Hrly DAM TUC $,R/T Scheduled Transactions,R/T Loss $,R/T Congestion $,Hrly R/T TUC $,Hrly Ext. TSC MWHr,,Hrly Ext. TSC MWHr to Central Hudson,Hrly Ext. TSC MWHr to Con Ed,Hrly Ext. TSC MWHr to LIPA,Hrly Ext. TSC MWHr to NYPA,Hrly Ext. TSC MWHr to OR,Hrly Ext. TSC MWHr to NYSEG,Hrly Ext. TSC MWHr to NIMO,Hrly Fin Impact Charge $,Ext Proxy Bus POW PTID
+TRANSACTIONS LBMP ENERGY
+100,400,500,101,102,511,512,513,514,515,516,517,518,519,520,528,529,531
+Org name,LSE name,Trans Id,Start day,Start hour,DAM LBMP Market MWHr,DAM LBMP Market Energy $,DAM LBMP Market Loss $,DAM LBMP Market Cong $,DAM LBMP Market LBMP $,R/T LBMP Market MWHr,R/T LBMP Market Energy $,R/T LBMP Market Loss $,R/T LBMP Market Cong $,R/T LBMP Market LBMP $,DAM Bid Cost Guarantee,R/T Bid Cost Guarantee,Hrly Fin Impact Charge $
+ANCILLARY SERVICES
+100,400,101,102,600,601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620,621,622,255,623,257,624,259,625,626,627,261,628,629,630,631,632,633,634,635,636,637,638,639,640,641,642,643,644,645,646,647
+Org name,LSE name,Start day,Start hour,Hrly Ancillary service Billing MWHr,Hrly Ext Export Transactions MWHr,Hrly Ext Wheel Thru Transactions MWHr,NTAC Rate,NTAC Charge $,Voltage Support Rate,Hrly VSS charge $,S SC&D MST Rate,S SC&D MST Charge $,Hrly Res Chg Ratio Share,Hrly Reserve Chg $,Residual Adjustment $,Hrly Reg Charge $,Black start Charge $, S SC&D OAT Rate,S SC&D OAT Charge $, ,LRR Black Start Charge$,Hrly Reg Rev Adj $,Hrly Sup Event Charge $,Hrly Fin Impact Credit $,Hrly Ext LBMP Export Transactions MWHr,Hrly Ext Import Transactions MWHr,S SC&D MST Inject Rate,S SC&D MST Inject Charge $,S SC&D OAT Inject Rate,S SC&D OAT Inject Charge $,Misc Exp MST Inject Rate,Misc Exp MST MST Charge $,Misc Exp MST WD Rate,Misc Exp MST WD Charge $,Misc Exp OAT Inject Rate,Misc Exp OAT Inject Charge $,Misc Exp OAT WD Rate,Misc Exp OAT WD Charge $,ISONE Schedule,ISONE NTAC Rate,HQ Schedule,HQ NTAC Rate,OH Schedule,OH NTAC Rate,PJM Schedule,PJM NTAC Rate,Ramapo PAR Charge $,Station 80 Charge $,Local Black Start/Rest Charge $,EDRP/SCR Demand Response Charge $ (Local),EDRP/SCR Demand Response Charge $ (NYISO-wide),FERC Fees OAT WD Charge $,FERC Fees OAT Inject Charge $,Fee Exempt Import MWHr,Fee Exempt Export MWHr
+Tidal Energy Marketing Inc., ,APR/14/2018,0,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,1,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,2,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,3,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,4,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,5,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,6,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,7,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,8,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,9,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,10,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,11,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,12,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,13,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,14,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,15,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,16,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,17,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,18,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,19,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,20,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,21,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,22,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc., ,APR/14/2018,23,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.15,0,1.15,0,1.15,0,0,,,,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,0,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,1,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,2,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,3,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,4,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,5,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,6,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,7,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,8,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,9,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,10,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,11,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,12,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,13,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,14,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,15,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,16,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,17,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,18,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,19,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,20,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,21,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,22,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/14/2018,23,0,0,0,1.15,0,.43,0,0,0,0,0,0,0,0,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,0,0,0,0,0,0,0,0,0
+TCC
+100,900,101,102,901
+Org name,TCC Contract ID,Start day,Start hour,Tcc credit
+Tidal Energy Marketing Inc.,425767,APR/14/2018,0,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,1,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,2,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,3,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,4,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,5,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,6,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,7,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,8,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,9,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,10,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,11,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,12,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,13,-.01
+Tidal Energy Marketing Inc.,425767,APR/14/2018,14,-.01
+Tidal Energy Marketing Inc.,425767,APR/14/2018,15,-.01
+Tidal Energy Marketing Inc.,425767,APR/14/2018,16,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,17,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,18,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,19,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,20,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,21,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,22,0
+Tidal Energy Marketing Inc.,425767,APR/14/2018,23,0
+DEMAND RESPONSE PROGRAMS
+100,2000,2001,101,102,2002,2003,203,403,2004,408,2005,2006,2007,2008,2009,2030,255,2031,257,2032,259,2033,261,2034,2020,2021,2022,2023,2042,2043,2045
+Org name,Demand Reduction Provider Name,Demand Reduction Provider TPID,Start day,Start hour,DAM Demand Reduction Schedule MWHR,Demand Reduction Acutal MWHR,DAM LBMP (Generator),DAM LBMP (Zonal),R/T LBMP (Generator - Time Weighted not Load Weighted,R/T LBMP (Zonal),Demand Response Incentive $,Demand Response Reduction $,Demand Response Penalty $,Demand Response Load Balancing $,Load Reduction Bid Guarantee $,Sched 1 MWHr,S SC&D MST Inject Rate,S SC&D MST Inject Charge $,S SC&D OAT Inject Rate,S SC&D OAT Inject Charge $,Misc Exp MST Inject Rate,Misc Exp MST Inject Charge $,Misc Exp OAT Inject Rate,Misc Exp OAT Inject Charge $,EDRP Demand Response Reduction MWHr,EDRP Demand Response Credit $,SCR Demand Response Reduction MWHr,SCR Demand Response Credit $,Annual Budget OAT SCR/ EDRP Charge $,Annual Budget OAT SCR/ EDRP Rate,FERC Fees OAT inject Charge $
+VIRTUAL BIDDING PROGRAM
+100,400,3000,3001,101,102,412,413,414,415,416,417,418,419,420
+Org name,LSE name,Virtual Bidding Bus Name,Virtual Bidding Bus PTID,Start day,Start hour,Virtual Load MWh,DAM Virtual Load $,Virtual Supplier MWh,DAM Virtual Supplier $,Balancing Virtual Load $,Balancing Virtual Supply $,Annual Budget OAT Virtuals Charge $,FERC Fees OAT Virtuals Charge $,Annual Budget OAT Virtuals Rate
+TRADING HUB LBMP TRANSACTIONS
+100,500,101,102,540,541,542,543,544,545,546,547,548,549
+Org name,Trans ID,Start day,Start hour,DAM Hrly Trading Hub MW,DAM Trading Hub Energy $,DAM Trading Hub Loss $,DAM Trading Hub Cong $,DAM Trading Hub LBMP $,R/T Hrly Trading Hub MW,R/T Trading Hub Energy $,R/T Trading Hub Loss $,R/T Trading Hub Cong $,R/T Trading Hub LBMP $

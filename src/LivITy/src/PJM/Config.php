@@ -42,7 +42,7 @@ class Config extends LivITyConfig
 				}
 			}
 		}
-
+        d($this->reports)exit;
         foreach ($this->reports as $report => $meta) {
             $data[] = array_merge($this->config, $meta[1]);
         }

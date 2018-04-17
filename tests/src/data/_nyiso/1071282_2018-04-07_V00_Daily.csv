@@ -1,0 +1,28 @@
+POWER SUPPLIERS DATE - AS OF: ,APR/07/2018
+100,200,201,101,300,301,302,303,304,305,306,307,308,309,310,311,312,313,314,316,317,318,319,320,321,322,323,324,325,326,327,1017,328,329,330,331
+Org name,Gen name,Gen Ptid,Start day,DAM LBMP MWh,DAM Forward Energy $,DAM BPCG $,R/T MWh,R/T Energy $,R/T BPCG $,Voltage Support $,VSS LOC $,Regulation Payment  $,Regulation Charge $,Operating Reserve Payment $,Black Start Daily Revenue Reqt,Black Start Service Payment $,DAM Contract Balancing Payment $,ELR DAM Contract Balancing Payment $,Regulation Rev Adj $,Sup Event Credit $,Injection MWHr,S SC&D MST Inject Rate,S SC&D MST Inject Charge $,S SC&D OAT Inject Rate,S SC&D OAT Inject Charge $,Misc Exp MST Inject Rate,Misc Exp MST Inject Charge $,Misc Exp OAT Inject Rate,Misc Exp OAT Inject Charge $,RT BPCG Mitigation Charge,Local Black Start/Rest Payment $,Margin Restoration (MOB) Payment $,Regulation Movement $,Regulation Performance Charge $,FERC Fees OAT Inject Charge $
+LSE LBMP ENERGY AND TRANSACTIONS DATE - AS OF: ,APR/07/2018
+100,400,101,700,701,702,703,704,705,706,707,750,751,752,753,754,755,756,757,776
+Org name,LSE name,Start day,DAM LBMP MWh,Fwd Energy $,Fwd Loss $,Fwd Cong $,LSE R/T MWh,R/T Energy $,R/T Loss $,R/T Cong $,DAM Scheduled Transactions,Transaction DAM Loss $,Transaction DAM Congestion $,DAM TUC $,R/T Schedule Transactions,R/T Loss $,R/T Congestion $,R/T TUC $,Fin Impact Charge $
+LSE TRANSACTIONS LBMP ENERGY DATE - AS OF: ,APR/07/2018
+100,400,101,758,759,760,761,762,763,764,765,766,767,768,769,777
+Org name,LSE name,Start day,DAM LBMP Market MWh,DAM LBMP Market Energy $,DAM LBMP Market Loss $,DAM LBMP Market Cong $,DAM LBMP Market LBMP $,R/T LBMP Market MWh,R/T LBMP Market Energy $,R/T LBMP Market Loss $,R/T LBMP Market Cong $,R/T LBMP Market LBMP $,DAM Bid Cost Guarantee,R/T Bid Cost Guarantee,Fin Impact Charge $
+ANCILLARY SERVICES DATE - AS OF: ,APR/07/2018
+100,400,101,800,801,802,803,804,805,806,807,808,809,810,811,812,813,814,815,817,818,819,824,825,826,827,319,828,321,829,323,830,831,832,325,833,834,835,836,837,838,839,840,841,4004,842,843,846,847
+Org name,LSE name,Start day,Ancillary Services Billing MWHr,External Export Transactions MWHr,External Wheel Thru Transactions MWHr,NTAC Charges $,VSS Charge $,S SC&D MST Charge $,Reserve Charge $,R&FR Charge $,Black Start Charge $,S SC&D OAT Charge $,LRR Uplift Charge $,LRR Black Start Charge $,NYISO-Wide Uplift Charge $,Residual Adjustments $,Demand Response Program Uplift,Incremental Uplift,Regulation Rev Adj $,Sup Event Charge $,Fin Impact Credit $,External LBMP Import Transactions MWHr,External Import Transactions MWHr,S SC&D MST WD Rate,S SC&D OAT WD Rate,S SC&D MST Inject Rate,S SC&D MST Inject Charge $,S SC&D OAT Inject Rate,S SC&D OAT Inject Charge $,Misc Exp MST Inject Rate,Misc Exp MST Inject Charge $,Misc Exp MST WD Rate,Misc Exp MST WD Charge $,Misc Exp OAT Inject Rate,Misc Exp OAT Inject Charge $,Misc Exp OAT WD Rate,Misc Exp OAT WD Charge $,Ramapo PAR Charge $,Station 80 Charge $,Local Black Start/Rest Charge $,Margin Restoration (MOB) Charge $,EDRP/SCR Demand Response Charge $ (Local),EDRP/SCR Demand Response Charge $ (NYISO-wide),Regulated Transmission Projects Charge $,FERC Fees OAT WD Charge $,FERC Fees OAT Inject Charge $,Fee Exempt Import MWHr,Fee Exempt Export MWHr
+Tidal Energy Marketing Inc., ,APR/07/2018,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,0,0,0,0,0
+Tidal Energy Marketing Inc.,TIDALVT,APR/07/2018,0,0,0,0,0,0,0,0,0,0,0,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TCC DATE - AS OF: ,APR/07/2018
+100,900,101,903,904,905,906
+Org name,TCC Contract ID,Start day,TCC credit,Annual Budget OAT TCC Charge $,FERC Fees OAT TCC Charge $,Annual Budget OAT TCC Rate
+Tidal Energy Marketing Inc.,,APR/07/2018,,,.04,
+Tidal Energy Marketing Inc.,425767,APR/07/2018,3.34,.32,0,.0132
+DEMAND RESPONSE PROGRAMS DATE - AS OF: ,APR/07/2018
+100,2000,2001,101,2010,2011,2012,2013,2014,2015,2035,319,2036,321,2037,323,2038,325,2039,2025,2026,2027,2028,2029,2040,2041,2044
+Org name,Demand Reduction Provider Name,Demand Reduction Provider PTID,Start Day,Demand Reduction MWHr,Demand Response Incentive $,Demand Response Reduction $,Demand Response Penalty $,Demand Reduction Load Balancing $,Load Reduction Bid Guarantee $,Sched 1 MWHr,S SC&D MST Inject Rate,S SC&D MST Inject Charge $,S SC&D OAT Inject Rate,S SC&D OAT Inject Charge $,Misc Exp MST Inject Rate,Misc Exp MST Inject Charge $,Misc Exp OAT Inject Rate,Misc Exp OAT Inject Charge $,EDRP Demand Response Reduction MWHr,EDRP Demand Response Credit $,SCR Demand Response Reduction MWHr,SCR Demand Response Credit $,SCR Demand Response Bid Cost Guarantee $,Annual Budget OAT SCR/ EDRP Charge $,Annual Budget OAT SCR/ EDRP Rate,FERC Fees OAT Inject Charge $
+VIRTUAL BIDDING PROGRAMS DATE - AS OF: ,APR/07/2018
+100,400,3000,3001,101,770,771,772,773,774,775,778,779,790
+Org name,LSE name,Virtual Bidding Bus Name,Virtual Bidding Bus PTID,Start Day,Virtual Load MWh,DAM Virtual Load $,Virtual Supplier MWh,DAM Virtual Supplier $,Balancing Virtual Load $,Balancing Virtual Supplier $,Annual Budget OAT Virtuals Charge $,FERC Fees OAT Virtuals Charge $,Annual Budget OAT Virtuals Rate
+TRADING HUB LBMP TRANSACTIONS DATE - AS OF:,APR/07/2018
+100,101,780,781,782,783,784,785,786,787
+Org name,Start day,DAM Trading Hub Energy $,DAM Trading Hub Loss $,DAM Trading Hub Cong $,DAM Trading Hub LBMP $,R/T Trading Hub Energy $,R/T Trading Hub Loss $,R/T Trading Hub Cong $,R/T Trading Hub LBMP $
