@@ -1,4 +1,0 @@
-TRA-Results
-===========
-1 records created.
-2 records updated.

@@ -12,20 +12,18 @@ use GuzzleHttp\Exception\TransferException;
 
 abstract class Crawler
 {
-    public abstract function recurse(String $path, String $sink);
+    public abstract function recurse(String $path, Array $opts);
 
     /**
      *
      */
-    public function request(String $path, String $sink)
+    public function request(String $path, Array $opts)
     {
         try {
-            if ($sink === '') {
+            if (empty($opts)) {
                 $res = $this->props['client']->request('GET', $path);
             } else {
-                $res = $this->props['client']->request('GET', $path, [
-                    'sink' => $sink
-                ]);
+                $res = $this->props['client']->request('GET', $path, $opts);
             }
         } catch(TransferException $e) {
             throw new \Exception($e->getMessage());

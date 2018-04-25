@@ -36,7 +36,7 @@ Class Crawler extends LivITyCrawler
                 'pass' => $this->props['config']['NYISO_AUTH_PASSWORD'],
                 'automated' => 2
             ],
-            // 'verify' => 'C:\Users\edwardk3\PortableApps\LivITy\.babun\cygwin\usr\local\etc\php\php-7.2.1-nts-Win32-VC15-x64\cacert-2018-03-07.pem',
+            'verify' => $root . '\src\keys\cacert-2018-03-07.pem',
             'cert'  => [$root . '\src\keys\mrm-oati-cert.pem', 'MRMiso2018'],
         ];
 
@@ -45,21 +45,21 @@ Class Crawler extends LivITyCrawler
         $this->props['log'] = (new Logger(Crawler::$LOG_NAME, $logFile))->getLogger(Crawler::$LOG_NAME);
     }
 
-    public function recurse(String $path, String $sink)
+    public function recurse(String $path, Array $opts)
     {
     }
 
     public function getAddDownloadsList()
     {
         // $response = exec('curl -E src/keys/mrm-oati-cert.pem "https://dss.nyiso.com/dss/login.jsp?user=louckda2&pass=NYFiles2018&automated=2" --pass MRMiso2018');
-        $response = $this->props['client']->request('GET', $this->props['config']['NYISO_BASE_URI'], $this->queryParams);
+        $response = $this->request($this->props['config']['NYISO_BASE_URI'], $this->queryParams);
         return explode("\n", trim($response->getBody()->getContents(), "\n"));
     }
 
     public function getAddDownload(Array $queryParams)
     {
         // $response = exec('curl -E src/keys/mrm-oati-cert.pem https://dss.nyiso.com/dss/docViewAGN.jsp\?RepoType\=I\&ID\=20087365\&fileName\=1071282_2018-04-13_V00_Daily\&type\=csv\&user\=louckda2\&pass\=NYFiles2018 --pass MRMiso2018 -b cookie.txt');
-        $response = $this->props['client']->request('POST', $this->props['config']['NYISO_DL_URI'], $queryParams);
+        $response = $this->request($this->props['config']['NYISO_DL_URI'], $queryParams);
     }
 
     /**

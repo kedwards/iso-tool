@@ -37,9 +37,9 @@ Class Crawler extends LivITyCrawler
     /*
      *
      */
-    public function recurse(String $path, String $sink)
+    public function recurse(String $path, Array $options)
     {
-        return $this->request($path, $sink);
+        return $this->request($path, $options);
     }
 
     public function run(Array $reports)
@@ -51,11 +51,11 @@ Class Crawler extends LivITyCrawler
 
             if (! $data['enabled']) { continue; }
 
-            if ($data['frequency'] == 'weekly') {
+            if ($data['frequency'] == 'WEEKLY') {
                 $data['startDate'] = (new \DateTime('Thursday 1 week ago'))->format('m/d/Y');
                 $data['endDate'] = (new \DateTime('Wednesday last week'))->format('m/d/Y');
                 $data['savePath'] = $data['save'] . $data['frequency'] . '/' . (new \DateTime('now'))->format('F') . '/' . str_replace('/', '', $data['startDate']) . '_' . str_replace('/', '', $data['endDate']);
-            } else if ($data['frequency'] == 'monthly') {
+            } else if ($data['frequency'] == 'MONTHLY') {
                 $data['startDate'] = (new \DateTime("first day of last month"))->format('m/d/Y');
                 $data['endDate'] = (new \DateTime("last day of last month"))->format('m/d/Y');
                 $data['savePath'] = $data['save'] . $data['frequency'] . '/' . (new \DateTime('last month'))->format('F');
@@ -69,8 +69,13 @@ Class Crawler extends LivITyCrawler
             }
 
             $data['save'] = $data['savePath'] . '/TIDALE_' . $data['reportDate'] . '_' . $data['name'] . '_' . $data['version'] . '.csv';
-            // d($data);exit;
-            $result = $this->recurse($data['uri'], $data['save']);
+
+            $opts = [
+                'verify' => 'C:\Users\edwardk3\Dropbox\PortableApps\LivITy\.babun\cygwin\usr\local\etc\php\php-7.2.1-nts-Win32-VC15-x64\cacert-2018-03-07.pem',
+                'sink' => $data['save']
+            ];
+
+            $result = $this->recurse($data['uri'], $opts);
         }
     }
 

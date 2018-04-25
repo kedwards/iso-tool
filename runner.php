@@ -11,6 +11,7 @@ use Commando\Command;
 use GuzzleHttp\Client;
 use LivITy\Logger;
 use LivITy\IESO\Crawler as IESOCrawler;
+use LivITy\IESO\MergeXlsx;
 use LivITy\PJM\Config;
 use LivITy\PJM\Crawler as PJMCrawler;
 use LivITy\PJM\CreateConfig;
@@ -34,12 +35,17 @@ $cli->option('e')
 
 switch ($cli['iso']) {
     case 'ieso':
-        $crawler = new IESOCrawler($root . '\src\config');
-        $crawler->log->info(' ===== Starting Recurse on ' .  date(DATE_RFC2822) . ' =====');
-        $path = is_null($cli['e']) ? $crawler->config['IESO_ROOT_PATH'] : $crawler->config['IESO_ROOT_PATH'] . $cli['e'];
-        $results = $crawler->recurse($path, '');
-        $crawler->log->info(' ===== Completed Recurse on ' .  date(DATE_RFC2822) . ' =====');
-        // Stats::create($results);
+        if(is_null($cli['e'])) {
+            $crawler = new IESOCrawler($root . '\src\config');
+            $crawler->log->info(' ===== Starting Recurse on ' .  date(DATE_RFC2822) . ' =====');
+            $path = is_null($cli['e']) ? $crawler->config['IESO_ROOT_PATH'] : $crawler->config['IESO_ROOT_PATH'] . $cli['e'];
+            $results = $crawler->recurse($path, '');
+            $crawler->log->info(' ===== Completed Recurse on ' .  date(DATE_RFC2822) . ' =====');
+            // Stats::create($results);
+        } else {
+            $merger = new MergeXlsx();
+            $merger->merge();
+        }
         break;
     case 'pjm':
         $config = new Config($root . '\src\config', 'pjm.ini');
@@ -73,8 +79,8 @@ switch ($cli['iso']) {
                         'pass' => 'NYFiles2018',
                         'delete' => 1
                     ],
-                    // 'verify' => 'C:\Users\edwardk3\PortableApps\LivITy\.babun\cygwin\usr\local\etc\php\php-7.2.1-nts-Win32-VC15-x64\cacert-2018-03-07.pem',
-                    'cert'  => [$this->root . '\keys\mrm-oati-cert.pem', 'MRMiso2018'],
+                    'verify' => $root . '\keys\cacert-2018-03-07.pem',
+                    'cert'  => [$root . '\keys\mrm-oati-cert.pem', 'MRMiso2018'],
                     'sink' => $fileSave
                 ];
             }
@@ -83,14 +89,12 @@ switch ($cli['iso']) {
         break;
     case 'miso':
         echo "MISO Crawler";
-        $client = new Client([
-            'base_uri' => 'https://markets.midwestiso.org/MISO/getSettlementStatementFile?',
-        ]);
-        $response = $client->request('GET', 'entity=TDL_MP&nodeId=key0', [
-            'verify' => false,
-            'cert'  => [$root . '\src\keys\mrm-oati-cert.pem', 'MRMiso2018'],
-            'timeout' => 10
-        ]);
+        $queryParams = [
+            'verify' => $root . '\src\keys\miso-mrm.pem',
+            'cert'  => [$root . '\src\keys\mrm-oati-cert.pem', 'MRMiso2018']
+        ];
+        $client = new Client(['cookies' => true]);
+        $response = $client->request('GET', 'https://markets.midwestiso.org/MISO/', $queryParams);
         break;
 }
 exit(0);

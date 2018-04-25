@@ -14,7 +14,6 @@ use Box\Spout\Common\Type;
 
 class Config extends LivITyConfig
 {
-    protected $reports;
     protected $config;
 
     /**
@@ -32,18 +31,17 @@ class Config extends LivITyConfig
 
     public function getReports($filePath)
 	{
-        // $filePath = $root . 'pjm.xlsx';
 		$reader = ReaderFactory::create(Type::XLSX);
 		$reader->open($filePath);
 		foreach ($reader->getSheetIterator() as $sheet) {
 			foreach ($sheet->getRowIterator() as $row) {
-				if ($row[2] == 'true') {
-					$this->reports[] = [$row[3], ['name' => $row[5], 'id' => $row[0], 'frequency' => $row[1], 'enabled' => $row[2], 'reportName' => $row[3], 'apiName' => $row[4], 'fileName' => $row[5], 'url' =>$row[6]]];
+				if ($row[2] == 'TRUE') {
+					$reports[] = [$row[3], ['name' => $row[5], 'id' => $row[0], 'frequency' => $row[1], 'enabled' => $row[2], 'reportName' => $row[3], 'apiName' => $row[4], 'fileName' => $row[5]]];
 				}
 			}
 		}
-        d($this->reports)exit;
-        foreach ($this->reports as $report => $meta) {
+
+        foreach ($reports as $report => $meta) {
             $data[] = array_merge($this->config, $meta[1]);
         }
         return $data;

@@ -71,9 +71,9 @@ Class Crawler extends LivITyCrawler
         }
     }
 
-    public function recurse(String $path, String $sink, $returnResponse = false)
+    public function recurse(String $path, Array $opts, $returnResponse = false)
     {
-        $response = $this->request($path, $sink);
+        $response = $this->request($path, $opts);
 
         $ct = $response->getHeader('Content-Type')[0];
         // if ($ct === "application/json;charset=UTF-8") {
@@ -92,7 +92,7 @@ Class Crawler extends LivITyCrawler
             if ($v['isDirectory']) {
                 $dir = $path . $v['fileName'] . '/';
                 $this->props['log']->info("Scanning Directory $dir");
-                $this->recurse($dir, '');
+                $this->recurse($dir, []);
             } else {
                 if (!preg_match('/^(.*)_v[0-9]{1,2}\.[a-z]*$/', $v['fileName'])) {
                     $v['folder'] = preg_replace('#^TIDAL/#', '', rtrim($path, "/"));
@@ -138,7 +138,7 @@ Class Crawler extends LivITyCrawler
 
     protected function retrieve(String $path, Array $v)
     {
-        $response = $this->request($path . '/' . $v['fileName'], $v['filePath']);
+        $response = $this->request($path . '/' . $v['fileName'], ['sink' => $v['filePath']]);
 
         if (!$response->getStatusCode() === 200) {
             $this->props['log']->info('Error retrieving file ' . $v['filePath']);
@@ -160,7 +160,7 @@ Class Crawler extends LivITyCrawler
 
     protected function update($path, $v)
     {
-        $response = $this->request($path, $v['filePath']);
+        $response = $this->request($path, ['sink' => $v['filePath']]);
 
         if (!$response->getStatusCode() === 200) {
             $this->props['log']->info('Error retrieving file ' . $v['filePath']);
